@@ -27,7 +27,7 @@ class UnitTestCase(TestCase):
 
     def test_home_homepage_template(self):
         response = self.client.get('/')
-        self.assertTemplateUsed(response, 'hashing\home.html')
+        self.assertTemplateUsed(response, 'hashing/home.html')
 
     def test_hash_form(self):
         form = HashForm(data={'text':'hello'})
@@ -45,11 +45,11 @@ class UnitTestCase(TestCase):
         return hash
 
     def test_hash_object(self):
-        hash = self.saveHash
+        hash = self.saveHash()
         pulled_hash = Hash.objects.get(hash='2cf24dba5fb0a30e26e83b2ac5b9e29e1b161e5c1fa7425e73043362938b9824')
         self.assertEqual(hash.text, pulled_hash.text)
 
     def test_viewing_hash(self):
-        hash = self.saveHash
+        hash = self.saveHash()
         response = self.client.get('/hash/2cf24dba5fb0a30e26e83b2ac5b9e29e1b161e5c1fa7425e73043362938b9824')
         self.assertContains(response,'hello')

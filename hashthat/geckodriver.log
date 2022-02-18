@@ -1,0 +1,43 @@
+1645158861593	geckodriver	INFO	Listening on 127.0.0.1:51132
+1645158864663	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51133" "-no-remote" "-profile" "C:\\Users\\trist\\AppData\\Local\\Temp\\rust_mozprofilem16Nxs"
+1645158864909	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\trist\\AppData\\Local\\Temp\\rust_mozprofilem16Nxs\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51133/devtools/browser/f1c5f9f9-6a1f-434c-989d-b999d478a031
+1645158866635	Marionette	INFO	Listening on port 51138
+1645158866719	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1645158866738	Marionette	INFO	Stopped listening on port 51138
+console.error: services.settings: 
+  main/query-stripping Signature failed  TypeError: NetworkError: Network request failed
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1645158899901	geckodriver	INFO	Listening on 127.0.0.1:51165
+1645158902980	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51166" "-no-remote" "-profile" "C:\\Users\\trist\\AppData\\Local\\Temp\\rust_mozprofileD6nlae"
+1645158903224	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\trist\\AppData\\Local\\Temp\\rust_mozprofileD6nlae\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51166/devtools/browser/d64448b3-e188-49b3-8233-ab383e6e2f68
+1645158904879	Marionette	INFO	Listening on port 51171
+1645158905014	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1645158905144	Marionette	INFO	Stopped listening on port 51171
+console.error: QuickSuggest: (new Error("Shutdown, aborting read-only worker requests.", "resource://services-settings/RemoteSettingsWorker.jsm", 143))
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1645159562546	geckodriver	INFO	Listening on 127.0.0.1:51296
+1645159565624	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51297" "-no-remote" "-profile" "C:\\Users\\trist\\AppData\\Local\\Temp\\rust_mozprofileu0ZE1Z"
+1645159565872	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\trist\\AppData\\Local\\Temp\\rust_mozprofileu0ZE1Z\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51297/devtools/browser/c4966665-950c-4d94-8aeb-4cd9dc66f1de
+1645159567999	Marionette	INFO	Listening on port 51302
+1645159568288	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1645159568409	Marionette	INFO	Stopped listening on port 51302
+console.error: QuickSuggest: (new TypeError("NetworkError: Network request failed", "resource://services-settings/Utils.jsm", 132))
+1645159568921	geckodriver	INFO	Listening on 127.0.0.1:51348
+1645159571996	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51349" "-no-remote" "-profile" "C:\\Users\\trist\\AppData\\Local\\Temp\\rust_mozprofileYBNcjL"
+1645159572245	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\trist\\AppData\\Local\\Temp\\rust_mozprofileYBNcjL\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51349/devtools/browser/3eae19c8-3d2d-4639-b04d-372c7687a907
+1645159574124	Marionette	INFO	Listening on port 51354
+1645159574157	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1645159574291	Marionette	INFO	Stopped listening on port 51354
+console.error: QuickSuggest: (new RemoteSettingsWorkerError("Remote Settings has shut down.", "resource://services-settings/RemoteSettingsWorker.jsm", 46))

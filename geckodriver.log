@@ -1,0 +1,21 @@
+1645158170652	geckodriver	INFO	Listening on 127.0.0.1:50917
+1645158173692	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50918" "-no-remote" "-profile" "C:\\Users\\trist\\AppData\\Local\\Temp\\rust_mozprofile4OcneG"
+1645158173954	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\trist\\AppData\\Local\\Temp\\rust_mozprofile4OcneG\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50918/devtools/browser/7ba00a8e-bc7c-4b63-b603-7470ddb3e0d6
+1645158175857	Marionette	INFO	Listening on port 50923
+1645158176368	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1645158186837	Marionette	INFO	Stopped listening on port 50923
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1645158315598	geckodriver	INFO	Listening on 127.0.0.1:50999
+1645158318645	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51000" "-no-remote" "-profile" "C:\\Users\\trist\\AppData\\Local\\Temp\\rust_mozprofileoJukcD"
+1645158318906	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\trist\\AppData\\Local\\Temp\\rust_mozprofileoJukcD\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51000/devtools/browser/095b4add-3bc9-41f8-845e-01c404e30a47
+1645158320743	Marionette	INFO	Listening on port 51005
+1645158320825	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1645158357668	Marionette	INFO	Stopped listening on port 51005
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
